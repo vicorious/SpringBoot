@@ -31,15 +31,13 @@ Nota: El proyecto odotCore contiene varias pruebas unitarias. Aunque siempre dig
 
 Después de que la compilación de SpringBootDemo se haya ejecutado correctamente, podrá ejecutar el über JAR de SpringBootDemo desde la línea de comando.
 
-4. 
-Ejecutar el JAR ejecutable
+4. Ejecutar el JAR ejecutable
 Desde una ventana terminal de Mac o desde el indicador de comandos de Windows, navegue hasta el directorio SpringBootDemo. Suponiendo que el directorio de salida de la compilación se llama target (es lo predeterminado), ejecute el siguiente comando:
 
 java -jar target/SpringBootDemo-1.0-SNAPSHOT.jar
 Ahora, acomódese para asombrarse mientras Spring Boot ejecuta la aplicación. Cuando vea el texto "Aplicación Iniciada" estará listo para emplear la aplicación.
 
-5
-Emplear la aplicación
+5. Emplear la aplicación
 Como prueba rápida para asegurarnos de que la aplicación está funcionando correctamente, abra una ventana del navegador e ingrese el siguiente URL:
 
 http://localhost:8080/CategoryRestService/FindAll
