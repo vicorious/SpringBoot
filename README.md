@@ -1,28 +1,26 @@
 # SpringBoot
 
-Obtenga el código
+1. Obtenga el código
 Para empezar, tiene que clonar dos proyectos desde sus repositorios de GitHub. El primero, llamado odotCore, contiene la lógica empresarial de la aplicación, que está escrita como una aplicación de POJO basada en Spring. La otra, llamada SpringBootDemo, es una aplicación de envoltorio de Spring Boot que envuelve odotCore.
 
 Para clonar el repositorio odotCore, abra una ventana terminal de Mac o una línea de comandos de Windows, navegue hasta carpeta raíz en la que quiere que el código resida y ejecute el comando:
 
-git clone https://github.com/makotogo/odotCore
+* git clone https://github.com/makotogo/odotCore
 Para clonar el repositorio de SpringBootDemo, ejecute el comando:
 
-git clone https://github.com/makotogo/SpringBootDemo
+* git clone https://github.com/makotogo/SpringBootDemo
 Observe que los dos proyectos se subordinan inmediatamente al directorio raíz de la aplicación. Después, usted importará el código a su área de trabajo.
 
-2
-Importe el código a Eclipse
+
+2. Importe el código a Eclipse
 Vaya a Archivo > Importar... y elija Maven > Proyectos Existentes de Maven.
 
 En el siguiente diálogo, utilice el botón Examinar para buscar el directorio raíz. Los dos proyectos que se clonaron en el paso anterior deberían aparecer en el diálogo, tal como se muestra aquí:
 
-Figura 8. Importar Proyectos de Maven
-Captura de pantalla del diálogo: Importar proyectos Maven.
 Haga clic en Finalizar para importar los proyectos a su área de trabajo de Eclipse. Después desarrollará el JAR ejecutable.
 
-3
-Construir el JAR ejecutable
+
+3. Construir el JAR ejecutable
 El desarrollo de SpringBootDemo requiere que desarrolles ambos proyectos odotCore y SpringBootDemo. Es posible desarrollar los proyectos desde la línea de comando, tal como vio en la aplicación HelloSpringBoot. En este caso, le mostraré como hacerlo con Eclipse.
 
 En Eclipse, haga clic derecho en el proyecto odotCore. Elija Ejecutar como > Compilación de Maven y especifique las metas limpiar e instalar . La meta instalar instalará el archivo JAR odotCore-1.0-SNAPSHOT.jar en su repositorio local de Maven. Desde ahí, estará disponible para ser obtenida como dependencia cuando se ejecute la compilación SpringBootDemo Maven.
@@ -33,7 +31,7 @@ Nota: El proyecto odotCore contiene varias pruebas unitarias. Aunque siempre dig
 
 Después de que la compilación de SpringBootDemo se haya ejecutado correctamente, podrá ejecutar el über JAR de SpringBootDemo desde la línea de comando.
 
-4
+4. 
 Ejecutar el JAR ejecutable
 Desde una ventana terminal de Mac o desde el indicador de comandos de Windows, navegue hasta el directorio SpringBootDemo. Suponiendo que el directorio de salida de la compilación se llama target (es lo predeterminado), ejecute el siguiente comando:
 
