@@ -1,14 +1,14 @@
 # SpringBoot
 
 1. Obtenga el código
-Para empezar, tiene que clonar dos proyectos desde sus repositorios de GitHub. El primero, llamado odotCore, contiene la lógica empresarial de la aplicación, que está escrita como una aplicación de POJO basada en Spring. La otra, llamada SpringBootDemo, es una aplicación de envoltorio de Spring Boot que envuelve odotCore.
+  Para empezar, tiene que clonar dos proyectos desde sus repositorios de GitHub. El primero, llamado odotCore, contiene la lógica     empresarial de la aplicación, que está escrita como una aplicación de POJO basada en Spring. La otra, llamada SpringBootDemo, es una aplicación de envoltorio de Spring Boot que envuelve odotCore.
 
-Para clonar el repositorio odotCore, abra una ventana terminal de Mac o una línea de comandos de Windows, navegue hasta carpeta raíz en la que quiere que el código resida y ejecute el comando:
+  Para clonar el repositorio odotCore, abra una ventana terminal de Mac o una línea de comandos de Windows, navegue hasta carpeta raíz en la que quiere que el código resida y ejecute el comando:
 
-* git clone https://github.com/makotogo/odotCore
+  * git clone https://github.com/makotogo/odotCore
 Para clonar el repositorio de SpringBootDemo, ejecute el comando:
 
-* git clone https://github.com/makotogo/SpringBootDemo
+  * git clone https://github.com/makotogo/SpringBootDemo
 Observe que los dos proyectos se subordinan inmediatamente al directorio raíz de la aplicación. Después, usted importará el código a su área de trabajo.
 
 
