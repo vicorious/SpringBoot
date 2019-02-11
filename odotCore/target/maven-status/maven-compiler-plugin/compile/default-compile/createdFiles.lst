@@ -1,0 +1,13 @@
+com\makotojava\learn\odot\model\Category.class
+com\makotojava\learn\odot\config\AbstractApplicationConfiguration.class
+com\makotojava\learn\odot\dao\CategoryDao$CategoryRowMapper.class
+com\makotojava\learn\odot\service\ItemService.class
+com\makotojava\learn\odot\dao\ItemDao.class
+com\makotojava\learn\odot\exception\ServiceException.class
+com\makotojava\learn\odot\exception\EntityPersistenceException.class
+com\makotojava\learn\odot\config\DatabaseConfiguration.class
+com\makotojava\learn\odot\model\Item.class
+com\makotojava\learn\odot\service\CategoryService.class
+com\makotojava\learn\odot\model\AbstractEntity.class
+com\makotojava\learn\odot\dao\ItemDao$ItemRowMapper.class
+com\makotojava\learn\odot\dao\CategoryDao.class
